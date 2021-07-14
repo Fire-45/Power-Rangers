@@ -32,14 +32,14 @@ keyPressed = e.keyCode;
 console.log(keyPressed);
 
 	if(keyPressed == '82') // add appropriate keycode
-	{   block_x = 100;
+	{   block_x = 6;
 		new_image("rr1.png");
 		console.log("r");
 		// upload red ranger
 	}
 	if(keyPressed == '71')
 	{
-		block_x = 250;
+		block_x = 207;
 		new_image("gr.png");
 		console.log("g");
 		// upload green ranger
